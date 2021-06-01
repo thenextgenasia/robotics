@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/vendors.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162944847-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162944847-4');
+    </script>
+    <script src="https://kit.fontawesome.com/2517b1257b.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Arduino Workshop & Competition | The Next Generation</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+    <!-- preloader start -->
+    <div class="preloader js-preloader">
+        <div class="preloader__bg"></div>
+
+        <div class="preloader__progress">
+            <div class="preloader__progress__inner"></div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+
+    <!-- cursor start -->
+    <div class="cursor js-cursor">
+        <div class="cursor__wrapper">
+            <div class="cursor__follower js-follower"></div>
+            <div class="cursor__label js-label"></div>
+            <div class="cursor__icon js-icon"></div>
+        </div>
+    </div>
+    <!-- cursor end -->
+
+
+    <!-- barba container start -->
+    <div class="barba-container" data-barba="container">
+
+        <!-- to-top-button start -->
+        <div data-cursor class="backButton js-backButton">
+            <span class="backButton__bg"></span>
+            <div class="backButton__icon__wrap">
+                <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+            </div>
+        </div>
+        <!-- to-top-button end -->
+
+
+        <main class="">
+
+
+            <!-- header start -->
+            <header class="header -light -sticky-dark js-header-dark js-header">
+                <!-- header__bar start -->
+                <div class="header__bar">
+                    <div class="header__logo js-header-logo">
+                        <a data-barba href="index">
+                            <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.png 1x"
+                                data-src="img/logo/logo-light.png" alt="Logo">
+                        </a>
+                        <a data-barba href="index">
+                            <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.png 1x"
+                                data-src="img/logo/logo-dark.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <div class="header__menu js-header-menu">
+                        <button type="button" class="nav-button-open js-nav-open">
+                            <i class="icon" data-feather="menu"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- header__bar end -->
+
+
+                <!-- nav start -->
+                <nav class="nav js-nav">
+                    <div class="nav__inner js-nav-inner">
+                        <div class="nav__bg js-nav-bg"></div>
+
+                        <div class="nav__container">
+                            <div class="nav__header">
+                                <button type="button" class="nav-button-back js-nav-back">
+                                    <i class="icon" data-feather="arrow-left-circle"></i>
+                                </button>
+
+                                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                                    <i class="icon" data-feather="x"></i>
+                                </button>
+                            </div>
+
+                            <div class="nav__content">
+                                <div class="nav__content__left">
+                                    <div class="navList__wrap">
+                                        <ul class="navList js-navList">
+                                            <li>
+                                                <a data-barba href="index">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-barba href="k12">
+                                                    K-12 Solutions
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-barba href="competitions">
+                                                    Competitions
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-barba href="contact">
+                                                    Contact Us
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- nav end -->
+            </header>
+            <!-- header end -->
+
+
+       <!-- section start -->
+       <section data-anim-wrap class="layout-mt-headerBar h-md md:h-100vh">
+        <div data-anim-child="img-right cover-white delay-2" class="bg-fill-image">
+          <div data-parallax="0.7" class="h-full overlay-black-sm">
+            <div data-parallax-target class="bg-image js-lazy" data-bg="img/ard/pr.webp"></div>
+          </div>
+        </div>
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-lg layout-pb-lg">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-7">
+              <div class="sectionHeading -lg">
+                <p class="sectionHeading__subtitle">
+                  Finished
+                </p>
+                <h2 class="sectionHeading__title">
+                Fundamentals & Advance Of Arduino UNO.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+<br>
+<br>
+        <div class="container">
+
+            <!-- row start -->
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-7">
+                <div class="sectionHeading -lg">
+                  <p class="sectionHeading__subtitle">
+                    Thanks for purchasing the workshop kit and taking part in the competition. You will recieve a mail for confirmation of payment as well, the kits once dispatched, the tracking id will also be sent to you.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+  
+  
+  
+          </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section data-parallax="0.7" class="layout-pt-lg layout-pb-lg">
+        <div data-parallax-target class="overlay-black-md bg-image js-lazy" data-bg=""></div>
+
+        <!-- container start -->
+        <div class="container z-5">
+          <!-- row start -->
+          <div class="row justify-content-center text-center">
+            <div class="col-12">
+              <h2 class="text-5xl sm:text-5xl xs:text-4xl leading-sm fw-700 text-white">
+                Become a part of the community and get the information before everyone.
+              </h2>
+
+              <a href="https://discord.com/invite/9MmeGRj" class="button -md -white text-black mt-32">
+                Join our Community
+              </a>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+
+            <div class="footer__top">
+                <!-- row start -->
+                <div class="row y-gap-48 justify-content-between">
+                    <div class="col-lg-auto col-sm-12">
+                        <a href="https://www.thenextgeneration.asia" class="footer__logo text-white">
+                            <img src="img/logo/full_inv.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+
+                        <div class="footer__content text-base text-light mt-16 sm:mt-12">
+
+                            <a href="https://forms.thenextgeneration.asia/member"><h4 class="text-xl fw-500 text-white">
+                                Join Us
+                            </h4></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-auto col-auto">
+                        <h4 class="text-xl fw-500 text-white">
+                            Follow us
+                        </h4>
+
+                        <div class="social -bordered mt-16 sm:mt-12">
+                            <a class="social__item text-white border-light" href="https://www.facebook.com/thenextgenasia/">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a class="social__item text-white border-light" href="https://www.instagram.com/thenextgenasia">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a class="social__item text-white border-light" href="https://twitter.com/thenextgenasia/">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a class="social__item text-white border-light" href="https://www.linkedin.com/company/thenextgenasia/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a class="social__item text-white border-light" href="https://discord.gg/invite/hj3Rkq5JVd">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                            <a class="social__item text-white border-light" href="https://www.twitch.tv/thenextgenasia">
+                                <i class="fab fa-twitch"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
+            </div>
+
+
+            <div class="footer__bottom -light">
+                <!-- row start -->
+                <div class="row">
+                    <div class="col">
+                        <div class="footer__copyright">
+                            <p class="text-light">
+                                @ 2020, The Next Generation
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
+            </div>
+
+        </div>
+        <!-- container end -->
+    </footer>
+    <!-- footer end -->
+
+    </main>
+
+    </div>
+    <!-- barba container end -->
+
+
+    <!-- JavaScript -->
+    <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

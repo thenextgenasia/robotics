@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/vendors.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162944847-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162944847-4');
+    </script>
+    <script src="https://kit.fontawesome.com/2517b1257b.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>FTC | The Next Generation</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+    <!-- preloader start -->
+    <div class="preloader js-preloader">
+        <div class="preloader__bg"></div>
+
+        <div class="preloader__progress">
+            <div class="preloader__progress__inner"></div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+
+    <!-- cursor start -->
+    <div class="cursor js-cursor">
+        <div class="cursor__wrapper">
+            <div class="cursor__follower js-follower"></div>
+            <div class="cursor__label js-label"></div>
+            <div class="cursor__icon js-icon"></div>
+        </div>
+    </div>
+    <!-- cursor end -->
+
+
+    <!-- barba container start -->
+    <div class="barba-container" data-barba="container">
+
+        <!-- to-top-button start -->
+        <div data-cursor class="backButton js-backButton">
+            <span class="backButton__bg"></span>
+            <div class="backButton__icon__wrap">
+                <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+            </div>
+        </div>
+        <!-- to-top-button end -->
+
+
+        <main class="">
+
+
+            <!-- header start -->
+            <header class="header -light -sticky-dark js-header-dark js-header">
+                <!-- header__bar start -->
+                <div class="header__bar">
+                    <div class="header__logo js-header-logo">
+                        <a data-barba href="index">
+                            <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.png 1x" data-src="img/logo/logo-light.png" alt="Logo">
+                        </a>
+                        <a data-barba href="index">
+                            <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.png 1x" data-src="img/logo/logo-dark.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <div class="header__menu js-header-menu">
+                        <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+            </button>
+                    </div>
+                </div>
+                <!-- header__bar end -->
+
+
+                <!-- nav start -->
+                <nav class="nav js-nav">
+                    <div class="nav__inner js-nav-inner">
+                        <div class="nav__bg js-nav-bg"></div>
+
+                        <div class="nav__container">
+                            <div class="nav__header">
+                                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+                            </div>
+
+                            <div class="nav__content">
+                                <div class="nav__content__left">
+                                    <div class="navList__wrap">
+                                        <ul class="navList js-navList">
+                                            <li>
+                                                <a data-barba href="index">
+                          Home
+                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-barba href="k12">
+                        K-12 Solutions
+                      </a>
+                                            </li>
+                                            <li>
+                                                <a data-barba href="competitions">
+                        Competitions
+                      </a>
+                                            </li>
+                                            <li>
+                                                <a data-barba href="contact">
+                        Contact Us
+                      </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- nav end -->
+            </header>
+            <!-- header end -->
+
+
+            <!-- section start -->
+            <section class="masthead -type-work-1 sm:text-center js-masthead-type-work-1 js-shapes">
+                <!-- shapes start -->
+                <div class="masthead-shapes -group-4">
+                    <div class="masthead-shapes__item -item-1">
+                        <div class="masthead-shapes__shape -white -shadow-light js-shape"></div>
+                    </div>
+                    <div class="masthead-shapes__item -item-2">
+                        <div class="masthead-shapes__shape -white -shadow-light js-shape"></div>
+                    </div>
+                </div>
+                <!-- shapes end -->
+
+                <!-- masthead__content start -->
+                <div class="masthead__content">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-9 col-sm-10 z-3">
+                                <div data-split="lines">
+                                    <p class="masthead__subtitle text-lg sm:text-base mb-32 sm:mb-24 js-subtitle">
+                                        Competition
+                                    </p>
+                                </div>
+
+                                <div data-split="lines">
+                                    <h1 class="masthead__title uppercase fw-700 js-title">
+                                        FIRST TECH Challenge
+                                    </h1>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- masthead__content end -->
+
+                <!-- container start -->
+                <div class="container-wide z-5 relative">
+                    <div data-parallax="0.7" class="h-lg z-5 js-image">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/H3V3A7CgwPU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- container end -->
+            </section>
+            <!-- section end -->
+
+
+            <!-- section start -->
+            <section class="layout-pt-lg layout-pb-lg">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-8">
+                            <div class="d-flex text-xs tracking-md pt-4">
+                                <p class="text-accent fw-600 mr-16">01.-</p>
+                                <p class="uppercase fw-500">Context</p>
+                            </div>
+                            <div class="mt-20">
+                                <h2 class="text-3xl fw-600">
+                                    What is FTC
+                                </h2>
+                                <p class="leading-5xl text-lg mt-24 sm:mt-16">
+                                    FIRST Tech Challenge students learn to think like engineers. Teams design, build, and code robots to compete in an alliance format against other teams. Robots are built from a reusable platform, powered by Android technology, and can be coded using a
+                                    variety of levels of Java-based programming.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+            <!-- section end -->
+
+
+            <!-- section start -->
+            <div class="layout-pb-sm">
+                <div class="container-wide">
+                    <div class="row x-gap-32 y-gap-32">
+
+                        <div class="col-lg-4 col-md-6">
+                            <div data-anim="slide-up delay-0">
+                                <a data-gallery="gallery1" class="glightbox" href="img/ftc/1.webp">
+                                    <div data-parallax="0.8" class="ratio ratio-3:4">
+                                        <div data-parallax-target class="bg-image js-lazy" data-bg="img/ftc/1.webp"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div data-anim="slide-up delay-1">
+                                <a data-gallery="gallery1" class="glightbox" href="img/ftc/2.webp">
+                                    <div data-parallax="0.8" class="ratio ratio-3:4">
+                                        <div data-parallax-target class="bg-image js-lazy" data-bg="img/ftc/2.webp"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div data-anim="slide-up delay-2">
+                                <a data-gallery="gallery1" class="glightbox" href="img/ftc/3.webp">
+                                    <div data-parallax="0.8" class="ratio ratio-3:4">
+                                        <div data-parallax-target class="bg-image js-lazy" data-bg="img/ftc/3.webp"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- section end -->
+
+
+            <!-- section start -->
+            <section class="layout-pt-md layout-pb-md">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-10">
+                            <div class="d-flex text-xs tracking-md">
+                                <p class="text-accent fw-600 mr-16">01.-</p>
+                                <p class="uppercase fw-500">Context</p>
+                            </div>
+                            <div class="mt-20">
+                                <h2 class="text-3xl fw-600">
+                                    Why FTC
+                                </h2>
+                                <p class="leading-5xl text-lg mt-24 sm:mt-16">
+                                    Apart from learning about leadership qualities and many other things, being a FIRST Alumni also provides you with scholarships worth 80 Million Dollars in some of the top elite universities in the USA.
+
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+            <!-- section end -->
+            <section class="layout-pt-md layout-pb-md bg-dark-1">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-10">
+                            <div class="d-flex text-xs tracking-md">
+                                <p class="text-accent fw-600 mr-16">01.-</p>
+                                <p class="uppercase text-white fw-500">Context</p>
+                            </div>
+                            <div class="mt-20">
+                                <h2 class="text-3xl text-white fw-600">
+                                    FAQ
+                                </h2>
+                                <p class="leading-5xl text-white text-lg mt-24 sm:mt-16">
+                                    Some common questions that we are asked, go through them to get a better understanding of how this competition will work
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+            <!-- section start -->
+            <section class="layout-pt-md layout-pb-lg">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row no-gutters justify-content-between">
+                        <div class="col-lg-8">
+                            <div class="blogPost -single -light">
+                                <div class="blogPost__content">
+                                    <h3>
+                                        Who can Participate/ Join the Team?
+                                    </h3>
+
+                                    <p>
+                                        Anyone who’s of Age between 12-18 and is a native citizen of India is eligible to join the team.
+                                    </p>
+
+                                    <h3>
+                                        Whom are we looking for?
+                                    </h3>
+
+                                    <p>
+                                        We’re looking for people who’re passionate about STEM and understands’ it’s true value. Even if you’ve great skills and calibre, but lack passion and enthusiasm, we recommend you not to fill out the forms. A Person with No skills but great passion is
+                                        what we’re looking up for.
+                                    </p>
+
+                                    <h3>
+                                        What is the Role of The Next Generation?
+                                    </h3>
+
+                                    <p>
+                                        From Making your Team a Balanced one to Provide Training, Guiding you wherever you’re stuck is what would be our role, but again it’d be the team’s efforts that’d pay off at the end so it has to be from your side.
+                                    </p>
+
+                                    <h3>
+                                        Who all are applicable for Scholarships?
+                                    </h3>
+
+                                    <p>
+                                        We at The Next Generation highly support those who support themselves and have bought themselves here, Scholarships are only available to those who are exceptionally good at any skill they possess and are really in need for it.
+                                    </p>
+
+                                    <h3>
+                                        What are the Criteria’s for Scholarship?
+                                    </h3>
+
+                                    <p>
+                                        The Candidate must be extraordinary at any of the skills that define them, they should possess leadership quality and ability to handle a team.
+                                    </p>
+
+                                    <h3>
+                                        Does any of our School Grades Matter?
+                                    </h3>
+
+                                    <p>
+                                        No, we do not want any of your school grades to be submitted, that being said, it’s your personality and your skills that we’re looking up for.
+                                    </p>
+
+                                    <h3>
+                                        What’s the total worth of scholarships available?
+                                    </h3>
+
+                                    <p>
+                                        The Total Amount of Rs 1.35 Lakhs has been declared for the scholarships of FTC by The Next Generation Foundation for the Year 2020-21.
+                                    </p>
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+            <!-- section end -->
+
+            <section class="layout-pt-md layout-pb-md bg-dark-1">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-10">
+                            <div class="d-flex text-xs tracking-md">
+                                <p class="text-accent fw-600 mr-16">01.-</p>
+                                <p class="uppercase text-white fw-500">Context</p>
+                            </div>
+                            <div class="mt-20">
+                                <h2 class="text-3xl fw-600 text-white">
+                                    Payment Plans
+                                </h2>
+                                <p class="leading-5xl text-lg text-white mt-24 sm:mt-16">
+                                    How much we charge, What we charge and everything covered.
+
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+
+            <section class="layout-pt-md layout-pb-lg">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row no-gutters justify-content-between">
+                        <div class="col-lg-8">
+                            <div class="blogPost -single -light">
+                                <div class="blogPost__content">
+                                    <h3>
+                                        What’s the cost of the whole Program?
+                                    </h3>
+
+                                    <p>
+                                        The Total Cost for the Program is Rs 66,700/- per member.
+                                    </p>
+
+                                    <h3>
+                                        What all does the cost include?
+                                    </h3>
+
+                                    <p>
+                                        Here’s the list of things that have been included in the cost of the Program:
+                                        <ol>
+                                            <li>Training for the competition.</li>
+                                            <li>Registration cost for the Event. </li>
+                                            <li>Kit and all the necessary parts for the competition.</li>
+                                            <li>Travel and accommodation in 3-star hotel in the city of which the event will take place, tentatively Pune.</li>
+                                            <li>3 Meals of the day would be covered.</li>
+                                            <li>Merchandise, Customized SWAG</li>
+                                        </ol>
+                                    </p>
+                                    <h3>
+                                        Installments-
+                                    </h3>
+
+                                    <p>
+                                        I Instalment: Rs 33,350/-<br> II Installment: Rs 33,350/-
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+
+            <section class="layout-pt-md layout-pb-md bg-dark-1">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-10">
+                            <div class="d-flex text-xs tracking-md">
+                                <p class="text-accent fw-600 mr-16">01.-</p>
+                                <p class="uppercase text-white fw-500">Context</p>
+                            </div>
+                            <div class="mt-20">
+                                <h2 class="text-3xl fw-600 text-white">
+                                    Covid-19 & Practice
+                                </h2>
+                                <p class="leading-5xl text-lg mt-24 text-white sm:mt-16">
+                                    We are aware of the risks and follow the proper procedure, our top-most priority is to keep you healthy and safe.
+
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+
+            <section class="layout-pt-md layout-pb-lg">
+                <!-- container start -->
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row no-gutters justify-content-between">
+                        <div class="col-lg-8">
+                            <div class="blogPost -single -light">
+                                <div class="blogPost__content">
+                                    <h3>
+                                        COVID-19 Effects on Training and Sessions?
+                                    </h3>
+
+                                    <p>
+                                        Since it’s COVID-19, we’ll know its effects and how badly it can impact us, the first month of the training would be virtual,and then after seeing the situations we’d be calling the team members to our Makerspace while all the safety norms are being adhered.
+                                    </p>
+
+                                    <h3>
+                                        What all would be COVID-19 Norms/ Precaution while you’re at Makerspace?
+                                    </h3>
+
+                                    <p>
+                                        As General, you should firstly have Arogya Setu App installed in your Smartphones, A 14-day self-declaration about your health, thermal screening and social distancing would be a must for anyone who’d be at maker space. Everything would be disinfected
+                                        by UV-C rays. Any other guidelines updated by the government will be applied ASAP
+                                    </p>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+            </section>
+
+
+
+                <footer class="footer -type-1 bg-dark-1">
+                    <!-- container start -->
+                    <div class="container">
+
+                        <div class="footer__top">
+                            <!-- row start -->
+                            <div class="row y-gap-48 justify-content-between">
+                                <div class="col-lg-auto col-sm-12">
+                                    <a href="https://www.thenextgeneration.asia" class="footer__logo text-white">
+                                        <img src="img/logo/full_inv.svg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6">
+
+                                    <div class="footer__content text-base text-light mt-16 sm:mt-12">
+
+                                        <a href="https://forms.thenextgeneration.asia/member"><h4 class="text-xl fw-500 text-white">
+                                            Join Us
+                                        </h4></a>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-auto col-auto">
+                                    <h4 class="text-xl fw-500 text-white">
+                                        Follow us
+                                    </h4>
+
+                                    <div class="social -bordered mt-16 sm:mt-12">
+                                        <a class="social__item text-white border-light" href="https://www.facebook.com/thenextgenasia/">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a class="social__item text-white border-light" href="https://www.instagram.com/thenextgenasia">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a class="social__item text-white border-light" href="https://twitter.com/thenextgenasia/">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a class="social__item text-white border-light" href="https://www.linkedin.com/company/thenextgenasia/">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                        <a class="social__item text-white border-light" href="https://discord.gg/invite/hj3Rkq5JVd">
+                                            <i class="fab fa-discord"></i>
+                                        </a>
+                                        <a class="social__item text-white border-light" href="https://www.twitch.tv/thenextgenasia">
+                                            <i class="fab fa-twitch"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- row end -->
+                        </div>
+
+
+                        <div class="footer__bottom -light">
+                            <!-- row start -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="footer__copyright">
+                                        <p class="text-light">
+                                            @ 2021, The Next Generation
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- row end -->
+                        </div>
+
+                    </div>
+                    <!-- container end -->
+                </footer>
+            <!-- footer end -->
+
+        </main>
+
+    </div>
+    <!-- barba container end -->
+
+
+    <!-- JavaScript -->
+    <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
